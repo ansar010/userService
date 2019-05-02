@@ -1,5 +1,7 @@
 package com.bridgelabz.fundoo;
 
+import static org.junit.Assert.fail;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +25,7 @@ public class UserServiceApplicationTests {
 	
 	@Test
 	public void contextLoads() {
+//		fail("fdsfdsf");
 	}
 
 }
